@@ -10,7 +10,7 @@ function dchange(){
 }
 
 function change(){
-    imgchange.src = "./img/avatar-img.jpeg"
+    imgchange.src = "./avatar-img.jpg"
 }
 
 btn_darkmode.addEventListener('click', function(){
