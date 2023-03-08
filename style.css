@@ -44,12 +44,11 @@ body{
 
 .contenedor{
     background-color: var(--secundary-color);
-    margin: 50px;
     width: 100%;
     max-width: 1200px;
     min-height: 1200px;
     display: grid;
-    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.5);
+    position: relative;    
     grid-template-columns: 1fr;
 }
 
@@ -365,6 +364,11 @@ p{
 }
 
 @media (min-width: 992px){
+    .contenedor{
+        margin: 50px;
+        box-shadow: 0 35px 55px rgba(0, 0, 0, 0.5);
+
+    }
     .perfil{
         flex-direction: row;
         justify-content: space-between;
